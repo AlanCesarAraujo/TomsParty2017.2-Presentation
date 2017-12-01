@@ -1,0 +1,87 @@
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEditor.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEditor.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\adm\Desktop\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\adm\Desktop\tomsPartyUnity\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\adm\Desktop\tomsPartyUnity\obj\Debug\Assembly-CSharp.dll
+C:\Users\adm\Desktop\tomsPartyUnity\obj\Debug\Assembly-CSharp.pdb
+C:\Users\aluno\Documents\tomsPartyUnity\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Documents\tomsPartyUnity\obj\Debug\Assembly-CSharp.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEditor.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEditor.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\aluno\Documents\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\aluno\Documents\tomsPartyUnity\obj\Debug\Assembly-CSharp.pdb
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEditor.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEditor.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\obj\Debug\Assembly-CSharp.dll
+C:\Users\adm\Desktop\Agora Vai\tomsPartyUnity\obj\Debug\Assembly-CSharp.pdb

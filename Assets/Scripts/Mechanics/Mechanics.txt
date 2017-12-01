@@ -1,0 +1,33 @@
+Mecânica 0: (Introduzir a nota)
+O personagem estará parado no cenário e a criança será incentivada a clicar nele (seta), depois que a criança clicar haverá uma narração explicando que aquele é o som do dó e pede para ela cantarolar a nota junto com a narradora.
+Haverá alguma forma de incentivar as crianças a clicar no personagem várias vezes.
+ 
+Mecânica 1: (A dos "balões")
+Nessa mecânica existirão três elementos que produzem som. No início da fase o personagem canta a sua nota algumas vezes, para que o usuário saiba a diferenciar das demais.
+Depois, cada elemento reproduz o seu respectivo som (que podem ser outras notas musicais ou efeitos sonoros, como o som de um arbusto, por exemplo) e depois de ouvir toda a sequência o usuário terá de indicar em qual dos elementos saiu o som da  nota que aquele personagem representa;
+O usuário poderá clicar no personagem para ouvir o som da sua nota musical e também ouvir novamente a sequência (usando o botão “replay”), sempre que desejar.
+Será utilizada da repetição para fixar o som da nota musical.
+ 
+Mecânica 2: (A das graminhas)
+O objetivo dessa mecânica é que o usuário reconheça o som da nota que  o personagem representa para que consiga atravessar corretamente para o outro lado da calçada.
+O gramado será em forma de “tabuleiro de xadrez”, onde em cada rodada um “quadrado” do tabuleiro, por vez, reproduz o seu respectivo som (que podem ser outras notas musicais ou efeitos sonoros, como o som de buzinas, por exemplo) e depois de ouvir os sons que saem dos quadrados o usuário terá de indicar em qual deles saiu o som da  nota que aquele personagem representa para poder avançar para o outro lado da calçada;
+O usuário poderá clicar no personagem para ouvir o som da sua nota musical e também ouvir novamente a sequência (usando o botão “replay”), sempre que desejar.
+Será utilizada da repetição para fixar o som da nota musical.
+ 
+Mecânica 3: (Jogo da memória)
+Se trata de um jogo de memória auditivo. Funcionará similar à um jogo de memória convencional, onde o jogador deve ir virando as peças e encontrando imagens iguais. Porém no nosso caso o usuário terá que lembrar do som da nota emitido ao clicar na peça e encontrar o “par” daquela peça, que seria o mesmo som. A medida que os pares são encontrados uma figura escondida por detrás das peças é revelada (como um incentivo para o usuário tentar encontrar o par de todas as peças);
+Será utilizada da concentração para memorizar o som da(s) nota(s) musical(is).
+ 
+Mecânica 4: (A das fotinhas)
+Nessa mecânica existirão três elementos que produzem som. No início da fase cada elemento reproduz o seu respectivo som (que serão uma das três notas musicais estudadas) produzindo uma melodia e depois de ouvir toda a sequência o usuário terá de escolher o personagem correto para cada nota musical e arrastar ele para o local correto onde aquela nota foi tocada.
+O usuário poderá clicar nos personagens durante a escolha dos mesmos para ouvir o som das suas notas musicais, e também poderá ouvir novamente a sequência (usando o botão “replay”) a qualquer momento;
+Será utilizada da concentração para acertar a ordem da melodia, escolhendo o personagem certo para reproduzir cada nota;
+ 
+Mecânica 5: (a da festa)
+Essa mecânica será de livre acesso durante todo o uso da aplicação. O usuário poderá, a qualquer momento, entrar na fase “Festa” e brincar com as notas que já foram desbloqueadas ao menos uma de suas fases.
+Basicamente, o usuário poderá clicar nos personagens e/ou ativar um teclado (que remete à um piano na vida real) para ouvir suas respectivas notas musicais. Ao clicar em uma tecla do teclado, o personagem que representa aquela nota irá se movimentar, isso evidenciará para o usuário que existe uma relação real entre a nota musical e os personagens.
+Será utilizada da associação das teclas do teclado com os personagens para indicar para o usuário que existe uma relação entre eles.
+ 
+
+Mecânica 6: (a nova que o tarcísio sugeriu)
+Uma mistura de guitar-hero com do ré mi fá fá fá

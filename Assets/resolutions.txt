@@ -1,0 +1,5 @@
+Backgrounds: 1680x945px
+
+Characters: 672x?px (proportional)
+
+buttons: 211x221px
