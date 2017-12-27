@@ -52,10 +52,13 @@ public class PlayerStates : MonoBehaviour {
 	}
 
 	void Move(float destination){
-		if(transform.position.x<destination){
-			tPlayer.Translate(speed * Time.deltaTime , 0.0f, 0.0f);
+		if (transform.position.x < destination - 2.5f) {
+			tPlayer.Translate (speed * Time.deltaTime, 0.0f, 0.0f);
 			isWalking = true;
-		}else{
+		} else if (transform.position.x < destination) {
+			tPlayer.Translate (speed * Time.deltaTime, 1f * Time.deltaTime, 0.0f);
+			isWalking = true;
+		} else {
 			isPlayable2 = true;
 			isWalking = false;
 		}
@@ -87,7 +90,6 @@ public class PlayerStates : MonoBehaviour {
 	}
 
 	IEnumerator SadDelay(){
-		Debug.Log ("to triste");
 		animator.CrossFade ("sad", 0f);
 		yield return new WaitForSeconds (1.4f);
 		isSad = false;
