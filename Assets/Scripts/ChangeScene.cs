@@ -9,12 +9,17 @@ public class ChangeScene : MonoBehaviour {
 	public int index;
 	public GameObject fase;
 	public GameObject buttons1;
+	public GameObject buttons0;
 	public GameObject buttons;
+	public GameObject victory;
 
 	public void goToScene(){
 		fase.SetActive(true);
 		buttons1.SetActive(true);
 		buttons.SetActive(false);
+//		buttons0.SetActive(true);
+		victory.SetActive(false);
+
 		Debug.Log("Index: "+ index +" deu certo");
 	}
 

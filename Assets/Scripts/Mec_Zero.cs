@@ -9,6 +9,7 @@ public class Mec_Zero : MonoBehaviour {
 	public GameObject objPlayer; //player
 	public GameObject progressBar; //progressBar
 	public GameObject victory;
+	public GameObject nextUp;
 
 
 	//audios
@@ -25,6 +26,7 @@ public class Mec_Zero : MonoBehaviour {
 
 	//mechanic
 	public static int stars;
+	bool isSinging = false;
 
 	void Start () {
 		//Elements of the player
@@ -44,7 +46,7 @@ public class Mec_Zero : MonoBehaviour {
 		//Make player sing
 		if(Input.GetMouseButtonDown(0)) {
 			Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			if (playerCollider.OverlapPoint (mousePosition)) {
+			if (playerCollider.OverlapPoint (mousePosition) && isSinging == false) {
 				//make sing: change animation, play note
 				playerAnimator.SetTrigger("sing");
 				stars++;
@@ -53,7 +55,7 @@ public class Mec_Zero : MonoBehaviour {
 		}
 
 		//end the level
-		if (stars >= 5 ){
+		if (stars == 5 ){
 			StartCoroutine("theEnd");
 		}
 	}
@@ -61,14 +63,21 @@ public class Mec_Zero : MonoBehaviour {
 	//victory screen
 	IEnumerator theEnd () {
 		yield return new WaitForSeconds (2f);
-		victory.SetActive (true);
+		victory.SetActive(true);
+		nextUp.SetActive(true);
+		stars = 0;
+		
 	}
 
 	IEnumerator sing(){
+
+		isSinging = true;
+		if(isSinging)
 		yield return new WaitForSeconds(1f);
 		pBarAnimator.SetInteger("cont",stars);
 		playerAudioSource.Play ();
 		StartCoroutine("stopSing");
+		isSinging = false;
 	}
 
 	IEnumerator stopSing(){

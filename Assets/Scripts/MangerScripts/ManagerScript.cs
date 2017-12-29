@@ -8,6 +8,7 @@ public class ManagerScript : MonoBehaviour {
 	public GameObject objPlayer; 
 	public GameObject progressBar;
 	public GameObject popUpVictory;
+	public GameObject nextUp;
 
 	public GameObject[] objBugles = new GameObject[3];
 	private PlayingNote[] bugles = new PlayingNote[3];
@@ -22,11 +23,17 @@ public class ManagerScript : MonoBehaviour {
 	public bool Rounding;
 	private bool isCorrect;
 	private Animator animProgress;
-
+	
+	/*void OnEnable(){
+			if(popUpVictory.activeSelf == true){
+				popUpVictory.SetActive(false);
+		}
+	}*/
 
 
 	// Use this for initialization
 	void Start () {
+
 		for (int i = 0; i < 3; i++) {
 			bugles [i] = objBugles[i].GetComponent<PlayingNote>();
 		}
@@ -46,7 +53,10 @@ public class ManagerScript : MonoBehaviour {
 
 	}
 
+	
+
 	void Update () {
+
 		for(int i = 0; i<bugles.Length; i++){
 			if(bugles[i].getId() == 0 && bugles[i].getCorrect() == true){
 				isCorrect = bugles [i].getCorrect ();
@@ -65,8 +75,17 @@ public class ManagerScript : MonoBehaviour {
 			popUpVictory.SetActive (true);
 		}
 
+		
+
 		animProgress.SetInteger ("cont", cont);
 		//Debug.Log (bugles[0].getCorrect()+" "+bugles[1].getCorrect()+" "+bugles[2].getCorrect());
+	}
+
+	IEnumerator theEnd () {
+		yield return new WaitForSeconds (2f);
+		popUpVictory.SetActive(true);
+		nextUp.SetActive(true);
+		cont = 0;
 	}
 
 	//Wainting to start the sounds
