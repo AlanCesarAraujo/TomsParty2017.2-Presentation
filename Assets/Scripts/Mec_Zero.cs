@@ -57,6 +57,9 @@ public class Mec_Zero : MonoBehaviour {
 		//end the level
 		if (stars == 5 ){
 			StartCoroutine("theEnd");
+			if(victory != null){
+				Debug.Log("Sai daqui DISGRAÇA");
+			}
 		}
 	}
 		
