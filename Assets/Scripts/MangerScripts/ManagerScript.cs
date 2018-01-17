@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ManagerScript : MonoBehaviour {
 
@@ -11,9 +13,14 @@ public class ManagerScript : MonoBehaviour {
 	public GameObject nextUp;
 
 	public GameObject[] objBugles = new GameObject[3];
+	private Animator[] animBugles = new Animator[3];
+	private Collider2D[] colBugles = new Collider2D[3];
 	private PlayingNote[] bugles = new PlayingNote[3];
 	public int[] buglesID = new int[3];
 	public AudioClip[] sounds = new AudioClip[3];
+
+	public GameObject repeatNotes;
+	private Button repeatBtn;
 
 	private int cont;
 
@@ -36,13 +43,18 @@ public class ManagerScript : MonoBehaviour {
 
 		for (int i = 0; i < 3; i++) {
 			bugles [i] = objBugles[i].GetComponent<PlayingNote>();
+			animBugles[i] = objBugles[i].GetComponent<Animator>(); //animacao
+			colBugles[i] = objBugles[i].GetComponent<Collider2D>();
 		}
 
-		animProgress = progressBar.GetComponent <Animator>();
+		animProgress = progressBar.GetComponent<Animator>();
 		cont = 0;
 
 		valido = false;
 		isPlayable = false;
+
+		repeatBtn = repeatNotes.GetComponent<Button>();
+		repeatBtn.onClick.AddListener(playAgain);
 
 		//isCorrect = false;
 
@@ -53,9 +65,25 @@ public class ManagerScript : MonoBehaviour {
 
 	}
 
-	
+	void playAgain(){
+		StartCoroutine ("Round");
+	}
 
 	void Update () {
+
+		//select note
+		if(Input.GetMouseButtonDown(0)) {
+			Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			if (colBugles[0].OverlapPoint (mousePosition)) {
+				bugles[0].checkNote();
+			}
+			if (colBugles[1].OverlapPoint (mousePosition)) {
+				bugles[1].checkNote();
+			}
+			if (colBugles[2].OverlapPoint (mousePosition)) {
+				bugles[2].checkNote();
+			}
+		}
 
 		for(int i = 0; i<bugles.Length; i++){
 			if(bugles[i].getId() == 0 && bugles[i].getCorrect() == true){
@@ -107,11 +135,20 @@ public class ManagerScript : MonoBehaviour {
 	IEnumerator Round(){
 		Rounding = true;
 		yield return new WaitForSeconds (1f);
+		animBugles[0].SetTrigger("play");
 		bugles[0].Play ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (1f);
+		animBugles[0].SetTrigger("normal");
+		yield return new WaitForSeconds (1f);
+		animBugles[1].SetTrigger("play");
 		bugles[1].Play ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (1f);
+		animBugles[1].SetTrigger("normal");
+		yield return new WaitForSeconds (1f);
+		animBugles[2].SetTrigger("play");
 		bugles[2].Play ();
+		yield return new WaitForSeconds (1f);
+		animBugles[2].SetTrigger("normal");
 		isPlayable = true;
 	}
 

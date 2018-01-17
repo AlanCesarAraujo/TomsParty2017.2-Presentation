@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ManagerScript2 : MonoBehaviour {
 
@@ -19,7 +20,12 @@ public class ManagerScript2 : MonoBehaviour {
 	public bool Rounding;
 	private bool isCorrect;
 	private Animator animProgress;
+	public GameObject reflexo1;
+	public GameObject reflexo2;
+	public GameObject reflexo3;
+	public GameObject repeatNotes;
 	private int cont;
+	private Button repeatBtn;
 
 	public AudioClip tryAgain;
 	public AudioClip wellDone;
@@ -32,6 +38,9 @@ public class ManagerScript2 : MonoBehaviour {
 			photos[i] = objPhotos[i].GetComponent<PlayingNote2>();
 			drops[i] = objPhotos[i].GetComponent<Drop>();
 		}
+
+		repeatBtn = repeatNotes.GetComponent<Button>();
+		repeatBtn.onClick.AddListener(playAgain);
 
 		narrator = GetComponent<AudioSource> ();
 		animProgress = progressBar.GetComponent <Animator>();
@@ -64,13 +73,26 @@ public class ManagerScript2 : MonoBehaviour {
 		animProgress.SetInteger ("cont", cont);
 	}
 
+	void playAgain(){
+		StartCoroutine ("Round");
+	}
+
 	IEnumerator Round(){
 		yield return new WaitForSeconds (1f);
+		reflexo1.SetActive (true);
 		photos[0].Play ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (0.5f);
+		reflexo1.SetActive (false);
+		yield return new WaitForSeconds (1.5f);		
+		reflexo2.SetActive (true);
 		photos[1].Play ();
-		yield return new WaitForSeconds (2f);
+		yield return new WaitForSeconds (0.5f);
+		reflexo2.SetActive (false);
+		yield return new WaitForSeconds (1.5f);	
+		reflexo3.SetActive (true);
 		photos[2].Play ();
+		yield return new WaitForSeconds (0.5f);
+		reflexo3.SetActive (false);
 		isPlayable = true;
 	}
 
